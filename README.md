@@ -42,7 +42,7 @@ call和apply一样，直接引用在方法上，而bind绑定this后返回一个
     var func = obj.getCount.bind(obj);
     console.log(func(3, 4));  // 10
 ```
-上面说明：bind是function的一个函数扩展方法，bind以后代码重新绑定了func内部的this指向 `（getCount中的this->bind的obj）`
+- [x] 上面说明：bind是function的一个函数扩展方法，bind以后代码重新绑定了func内部的this指向 `（getCount中的this->bind的obj）`
 
 ## 兼容写法
 ```
