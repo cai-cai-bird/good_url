@@ -15,7 +15,8 @@ apply call bind 都是用来改变上下文的this指向的
 ## 不同点
 call和apply一样，直接引用在方法上，而bind绑定this后返回一个方法，但内部核心还是apply。
 ## 例子
-`var obj = {
+`<
+var obj = {
   a: 1,
   b: 2,
   getCount: function(c, d) {
@@ -27,7 +28,7 @@ window.a = window.b = 0;
 console.log(obj.getCount(3, 4));  // 10
 var func = obj.getCount;
 console.log(func(3, 4));
-`
+>`
 
 
 
