@@ -28,7 +28,7 @@ call和apply一样，直接引用在方法上，而bind绑定this后返回一个
     var func = obj.getCount;
     console.log(func(3, 4)); //7
     
-为何会这样？因为func在上下文中的this是window，bind的存在正是为了改变this指向获取想要的值：
+上面为何会这样？因为func在上下文中的this是window，bind的存在正是为了改变this指向获取想要的值：
 
     var obj = {
       a: 1,
@@ -42,7 +42,7 @@ call和apply一样，直接引用在方法上，而bind绑定this后返回一个
     var func = obj.getCount.bind(obj);
     console.log(func(3, 4));  // 10
 
-bind是function的一个函数扩展方法，bind以后代码重新绑定了func内部的this指向（getCount中的this->bind的obj）
+上面说明：bind是function的一个函数扩展方法，bind以后代码重新绑定了func内部的this指向 `（getCount中的this->bind的obj）`
 
 ## 兼容写法
 
