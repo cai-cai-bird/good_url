@@ -72,7 +72,7 @@ console.log(b) //{name:3}
 #### 3. exports.xxx = { } 将会指向同一块内存，可以用这种方式导出模块
 #### 4. 如果用第二种方式导出模块，最后加上 module.exports = exports 重新赋值，一样可以达到导出模块的效果
 
-
+------
 
 # apply call bind 用法
 apply call bind 都是用来改变上下文的this指向的 
