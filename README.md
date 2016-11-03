@@ -10,6 +10,8 @@ http://ourjs.com/userinfo/ourjs
 
 http://ourjs.com/detail/572160b688feaf2d031d24e4 面试
 
+------
+
 # module.exports和exports的区别
 
 ## node 控制台直接打印console.log(module)
