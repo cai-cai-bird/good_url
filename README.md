@@ -10,6 +10,8 @@ http://ourjs.com/userinfo/ourjs
 
 http://ourjs.com/detail/572160b688feaf2d031d24e4 面试
 
+https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.md You-Dont-Need-jQuery
+
 ------
 # ubuntu中的命令
 ### 1. 全局安装的包目录在 /usr/local/nodejs/lib/node_modules/ 下边
