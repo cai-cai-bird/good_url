@@ -20,6 +20,12 @@ https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.md You-Dont-N
 ### 4. rm -rf xxx.js 删除文件
 ### 5. mv xxx.js 目标目录  移动文件到目标目录
 
+
+## 全局安装的模块在linux中找不到的解决方案
+eg:npm install gulp -g 
+这时找到gulp的安装路劲　制作一个软链
+sudo ln -s /usr/local/nodejs/lib/node_modules/gulp/bin/gulp.js /usr/bin/gulp
+如果gulp存在　sudo rm /usr/bin/gulp
 ------
 
 # module.exports和exports的区别
