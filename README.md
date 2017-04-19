@@ -24,7 +24,7 @@ https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.md You-Dont-N
 ## 全局安装的模块在linux中找不到的解决方案
 eg:npm install gulp -g 
 这时找到gulp的安装路劲　制作一个软链
-sudo ln -s /usr/local/nodejs/lib/node_modules/gulp/bin/gulp.js /usr/bin/gulp
+sudo ln -s /usr/local/nodejs/lib/node_modules/gulp/bin/gulp.js /usr/sbin/gulp
 如果gulp存在　sudo rm /usr/bin/gulp
 ------
 
