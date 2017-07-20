@@ -10,6 +10,8 @@ http://ourjs.com/userinfo/ourjs
 
 http://ourjs.com/detail/572160b688feaf2d031d24e4 面试
 
+https://www.zhihu.com/question/19568008 如何面试前端工程师?
+
 https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.md You-Dont-Need-jQuery
 
 ------
